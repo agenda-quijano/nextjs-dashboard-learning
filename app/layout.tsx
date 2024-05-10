@@ -1,5 +1,5 @@
 //import css global
-import { monserrat } from './ui/Fonts';
+import { monserrat,lusitana } from './ui/fonts';
 import './ui/global.css';
 
 export default function RootLayout({
@@ -9,7 +9,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${monserrat.className} antialiased`}>
+      <body className={` antialiased`}>
         {children}
       </body>
     </html>
